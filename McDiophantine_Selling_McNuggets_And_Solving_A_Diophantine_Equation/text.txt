@@ -1,0 +1,49 @@
+#Problem Set 2 (text file)
+#Name: Courtney Gibbons
+#Time: 30
+#
+1.
+6a + 9b + 20c = 50
+a = 5, b = 0, c = 1
+
+6a + 9b + 20c = 51
+a = 1, b = 5, c = 0
+
+6a + 9b + 20c = 52
+a = 2, b = 0, c = 2
+
+6a + 9b + 20c = 53
+a = 1, b = 3, c = 1
+
+6a + 9b + 20c = 54
+a = 9, b = 0, c = 0
+
+6a + 9b + 20c = 55
+a = 1, b = 1, c = 2
+--------
+56 = solution for 50 + 1 6-pack
+
+57 = solution for 51 + 1 6-pack
+
+58 = solution for 52 + 1 6-pack
+
+59 = solution for 53 + 1 6-pack
+
+60 = solution for 54 + 1 6-pack
+
+61 = solution for 55 + 1 6-pack
+
+62 = solution for 50 + 2 6-packs
+
+63 = solution for 51 + 2 6-packs
+
+64 = solution for 52 + 2 6-packs
+
+65 = solution for 53 + 2 6-packs
+
+2.
+Theorem: If it is possible to buy x, x + 1,…, x + 5 sets of McNuggets, for some x, then it is
+possible to buy any number of McNuggets >= x, given that McNuggets come in 6, 9 and 20
+packs.
+
+This theorem is true because if you can buy x nuggets, you can buy x + 6 nuggets by adding another 6-pack.  Similarly, if you can buy x + 1 nuggets, you can buy x + 7 nuggets by adding another 6-pack, and so on.
